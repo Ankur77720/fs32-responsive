@@ -91,8 +91,16 @@ main {
   .brand-potential {
     padding: 4rem;
     flex-direction: row-reverse;
+    gap: 3.5rem;
   }
-  .brand-potential h1 {
-    font-size: 5em;
+  .brand-potential .top,
+  .brand-potential .bottom {
+    width: 50%;
+  }
+  .brand-potential .bottom h1 {
+    font-size: 5.3em;
+  }
+  .brand-potential .bottom .elements .element p {
+    font-size: 2em;
   }
 }

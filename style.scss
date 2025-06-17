@@ -61,13 +61,11 @@ main {
 
 
     .bottom {
-
         display: flex;
         flex-direction: column;
         gap: 1.5em;
 
         h1 {
-
             font-size: 2.7rem;
             text-transform: uppercase;
             font-weight: 300;
@@ -101,17 +99,37 @@ main {
 
 @media (min-width:1024px) {
 
-    .hero-section{
+    .hero-section {
         padding: 4rem;
         padding-top: 7.1rem;
     }
 
-    .brand-potential{
+    .brand-potential {
         padding: 4rem;
         flex-direction: row-reverse;
+        gap: 3.5rem;
 
-        h1{
-            font-size: 5em;
+        .top,
+        .bottom {
+            width: 50%;
+        }
+
+
+
+
+        .bottom {
+
+            h1 {
+                font-size: 5.3em;
+            }
+
+            .elements {
+                .element {
+                    p {
+                        font-size: 2em;
+                    }
+                }
+            }
         }
     }
 }
